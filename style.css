@@ -95,3 +95,15 @@ body {
     text-align: center;
     margin-top: 35%;
 }
+.login-btn {
+    
+    display:flex;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+}
+
