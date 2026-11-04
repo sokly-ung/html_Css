@@ -6,7 +6,7 @@
 .header{
     margin-top: 5%;
     text-align: center;
-   
+    
 }
 @media (max-width: 600px) {
     .d {
@@ -31,21 +31,25 @@
     margin: 0;
     line-height: 1.2;
     }
+}
 
     .list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 0;
-    }
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    background-color:white;
 
+    
 }
+
+
 .tittle{
      text-align: center;
      margin-top: 30%;
      margin: 0;
-     font-size: ;
+     font-size:40px ;
 }
 
     .d {
@@ -65,7 +69,7 @@
     margin: 0;
 }
      
-}
+
 .d:hover{
     transform: translateY(-5px);
 }
@@ -76,4 +80,11 @@
     list-style: none;
     justify-content: center;
     gap: 30px;
+}
+body {
+    background-image: url("image/network.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
