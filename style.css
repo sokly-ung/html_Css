@@ -80,6 +80,8 @@
     list-style: none;
     justify-content: center;
     gap: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff006f;
 }
 body {
     background-image: url("image/network.png");
@@ -87,4 +89,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+.f{
+    color: white;
+    text-align: center;
+    margin-top: 35%;
 }
